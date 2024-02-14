@@ -12,8 +12,8 @@ nav{
 /* Utility */
 
 .container{
-    width: 60vw;
-    height: 100%;
+    width: 55vw;
+    height: 575px;
     margin: 0 auto;
     padding: 15px;
     position: relative;
@@ -36,19 +36,19 @@ nav{
 .button{
     border-radius: 25px;
     padding: 10px 25px;
+    cursor: pointer;
+
 }
 
 .arrow{
     font-weight: 600;
 }
-/************
-  Header
-*************/
 
+
+/*#region Header*/
 #site-header{
     background-image: url("../img/jumbo.png");
     width: 100vw;
-    height: 575px;
     background-size: cover;
 }
 
@@ -113,6 +113,51 @@ header h1{
     color: white;
     margin-left: 15px;
 }
+/*#endregion Header*/
+ 
+/*#region Main */
+
+.col-60{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.col-40{
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.text-area{
+    position: absolute;
+    top:45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.text-area>h2{
+    font-size: 2.1rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+
+.text-area>.caption{
+    font-size: 14px;
+}
+
+/* .bg-grey{
+    background-image: url("../img/wave.svg");
+    background-color: #ededed;
+    background-blend-mode: overlay;
+    background-repeat: repeat-y;
+    background-position: bottom;
+
+} */
+
+/*#endregion Main */
 
 
 
