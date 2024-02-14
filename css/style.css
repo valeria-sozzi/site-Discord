@@ -36,8 +36,10 @@ nav{
 .button{
     border-radius: 25px;
     padding: 10px 25px;
-    cursor: pointer;
+}
 
+header .button{
+    cursor: pointer;
 }
 
 .arrow{
@@ -131,31 +133,74 @@ header h1{
     position: relative;
 }
 
-.text-area{
+.col-40>.text-area{
     position: absolute;
     top:45%;
     left: 45%;
     transform: translate(-50%, -50%);
 }
-.text-area>h2{
+h2{
     font-size: 2.1rem;
     font-weight: 700;
     padding-bottom: 10px;
     line-height: 40px;
 }
 
-.text-area>.caption{
+.caption{
     font-size: 14px;
 }
 
-/* .bg-grey{
-    background-image: url("../img/wave.svg");
-    background-color: #ededed;
-    background-blend-mode: overlay;
-    background-repeat: repeat-y;
-    background-position: bottom;
 
-} */
+.bg-grey-img{
+    background-image: url("../img/wave.svg");
+    background-blend-mode: color;
+    background-color: #fffbfbdb;
+    height: 100px;
+    width: 100%;
+}
+
+.bg-grey-img-inverse{
+    background-image: url("../img/wave.svg");
+    filter: invert(1);
+    background-color: #292626;
+    height: 100px;
+    width: 100%;
+}
+
+.bg-grey{
+    background-color: #d9d9d9;
+}
+
+.container>.single-col{
+    text-align: center;
+    padding: 50px;
+    width: 80%;
+}
+
+.single-col>h2{
+    padding-bottom: 30px;
+}
+
+.single-col>.question{
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    height: 50px;
+    background-position: center;
+    margin: 50px 0;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.actions>.button{
+    background-color: rgb(100 148 237 / 55%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.body:last-child{
+    height: 1000px;
+}
 
 /*#endregion Main */
 
