@@ -71,7 +71,7 @@ header .button{
     text-align: center;
 }
 
-.actions:hover{
+.menu>.actions:hover{
     text-decoration: underline;
 }
 
@@ -174,7 +174,6 @@ h2{
 .container>.single-col{
     text-align: center;
     padding: 50px;
-    width: 80%;
 }
 
 .single-col>h2{
@@ -204,6 +203,86 @@ h2{
 
 /*#endregion Main */
 
+/* #region Footer*/
 
+footer{
+    background-color: black;
+    position: relative;
+    height: 575px;
+}
+
+.col-left{
+    width: 32%;
+    float: left;
+    height: 70%;
+    margin-top: 50px;
+}
+
+.col-right{
+    width: 17%;
+    float: left;
+    height: 70%;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+footer .title{
+    color: cornflowerblue;
+}
+
+.italy{
+    margin:20px 0;
+}
+.italy>img{
+    width:30px;
+    vertical-align: middle;
+}
+
+.leng{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.symbols img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#fb{
+    border-radius: 50%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    color: white;
+    margin-top: 15px;
+}
+
+.final{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #d3d3d345;
+    padding: 15px;
+}
+
+.final>.button{
+    background-color: cornflowerblue;
+    color: white;
+    position:absolute;
+    right:0;
+    cursor: pointer;
+}
+
+
+/* #endregion Footer */
 
 
